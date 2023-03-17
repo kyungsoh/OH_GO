@@ -1,69 +1,132 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OH_GO</title>
-  <meta charset="utf-8">
+  <style>
+      .menu, .category {
+          display: flex;
+          font-weight: bold;
+          color: white;
+      }
+      
+      .menu_item, .sub_category {
+          flex: 1;
+          margin-left: 10px;
+          font-size: larger;
+          text-align: center;
+          border-style: solid;
+          background-color: rgba(136, 85, 149, 0.64);
+      }
+
+      table {
+          width: 100%;
+      }
+      img,video { 
+          display : block;
+          margin : auto;
+      }
+
+  </style>
+
+  <!-- <script>
+    var isize = document.querySelectorAll('img');
+    var i = 0;
+    while(i<isize.length){
+      isize[i].width = "120";
+      isize[i].height = "80.25";
+      i = i + 1;
+    }
+  </script> -->
+
+  
 </head>
+<body>
+    <div class="menu">
+          <div class="menu_item"><a href="index.html">전체</a></div>
+          <div class="menu_item"><a href="Suk_Sun.html">서니와 서기</a></div>
+          <div class="menu_item"><a href="Joon_Hee.html">여니와 주니</a></div>
+          <div class="menu_item"><a href="Hyub_Ji.html">은지와 혀비</a></div>
+          <div class="menu_item"><a href="#">TBD</a></div>
+    </div>
+    <br>
+    <table border="1">
+        <!-- 각 방의 head -->
+        <tr>
+            <th>Memorandum</th>
+            <th>Gallery</th>
+            <th>Video</th>
+        </tr>
+        <!-- 생일/결혼등 주요 기념일 -->
+        <tr>
+            <td rowspan="4", style="padding:0 0 0 60px;">
+                <li>서기 07/03</li>
+                <li>서니 02/15(음)</li>
+                <li>결혼 11/24</li>
+                <br>
+                <li>주니 09/20</li>
+                <li>여니 09/30</li>
+                <li>결혼 09/04</li>
+                <br>
+                <li>혀비 03/21</li>
+                <li>은지 04/20</li>
+                <li>결혼 04/07</li>
+                <li>윤우 08/17</li>
+            </td>
 
-<<body>
-  <h1>서기와 서니의 이야기</h1>
+            <td>
+                <a href="img\allFamily\img_0001_여니주니결혼_2022.09.04.jpg">
+                  <img src="img\allFamily\img_0001_여니주니결혼_2022.09.04.jpg" width="300" height="200" alt="결혼"> 
+                </a>
+                <br>
+            </td>
 
-  <ol>
-    <h3><li>전체</li> </h3>
-
-    <h3><li><a href="Suk_Sun.html">서니와 서기</a></li></h3>
-        <ol>
-          <h3><li>서기 & 서니</li></h3>
-          <h3><li>주요행사</li></h3>
-        </ol>
-
-    <h3><li><a href="Joon_Hee.html">여니와 주니</a></li></h3>
-      <ol>
-        <h3><li>주니 & 여니</li></h3>
-        <h3><li>주요행사</li></h3>
-      </ol>
-
-    <h3><li><a href="Hyub_Ji.html">은지와 혀비</a></li></h3>
-      <ol>
-        <h3><li>혀비 & 은지</li></h3>
-        <h3><li>주요행사</li></h3>
-      </ol>
-
-    <h3><li><a href="YoonWoo_Vlog.html">유누의 Vlog</a></li> </h3>
-    <h3><li><a href="Ddori_Vlog.html">또리의 VLOG</a></li> </h3>
-
-    <h3><li>사돈끼리</li></h3>
-      <ol>
-        <h3><li><a href="Shin_Maeng.html">유누의 하부지하무니</a></li></h3>
-        <h3><li><a href="Kim-Lee.html">또리의 하부지하무니</a></li></h3>
-      </ol>
-
-    <h3><li>Don'tForgetDay</li><BR></h3>
-  </ol>
-<p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/KWA-Iz9GU5o" title="윤우 Vlog 118회" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-
-<H1>Thanky for your visiting</H1>
-
-<br>
-<br>
-
-<a href="오학준결혼_2022.09.04_0002.jpg">
-  <img src="오학준결혼_2022.09.04_0002.jpg" width="100%"><a>
-<br>
-<br>
-<br>
+            <td>
+                <a href="img\allFamily\video_0001_신윤우.mp4">
+                  <video src="img\allFamily\video_0001_신윤우.mp4" width="300" height="200" alt="윤우"></video>
+                </a>
+                <br>
+            </td>            
+        </tr>
+        
 
 
 
-<h2>Photo</h2>
-<<h3>20yy.mm.dd  장소: 몰라</h3>
-<a href="아내와함께_0001.jpg">
-  <img src="아내와함께_0001.jpg" width="400"><a>
-<a href="오경석-아내와_2017.11.12_아산.jpg">
-  <img src="오경석-아내와_2017.11.12_아산.jpg" width="400" alt="2017-11-12 아산"><a>
+        <tr>
+            <!-- <td>  </td> -->
+
+            <td>
+                <a href="img\allFamily\img_0002_윤우돐_2021.09.13.jpg">
+                    <img src="img\allFamily\img_0002_윤우돐_2021.09.13.jpg" width="300" height="200" alt="윤우돐">
+                </a>
+
+            </td>
+        </tr>
+
+        
+        <tr>
+            <!-- <td>  </td> -->
+
+            <td>
+                <a href="img\allFamily\img_0003_사돈_2022.09.04.jpg">
+                    <img src="img\allFamily\img_0003_사돈_2022.09.04.jpg" width="300" height="200" alt="사돈">
+                </a>
+
+            </td>
+        </tr>
+
+        <tr>
+            <!-- <td>  </td> -->
+
+            <td>
+                <a href="img\allFamily\img_0004_사돈_2022.09.04.jpg">
+                    <img src="img\allFamily\img_0004_사돈_2022.09.04.jpg" width="150" height="366" alt="사돈">
+                </a>
+
+            </td>
+        </tr>
+    </table>
 
 </body>
 </html>
